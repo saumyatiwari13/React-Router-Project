@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/React-Router-Project/static/css/main.bc37d930.css",
-    "main.js": "/React-Router-Project/static/js/main.10e485fc.js",
-    "static/media/pfp.jpg": "/React-Router-Project/static/media/pfp.43b80dd3be582f355ece.jpg",
-    "static/media/contact.svg": "/React-Router-Project/static/media/contact.0c1884b99736759f5cef38035409ae75.svg",
-    "index.html": "/React-Router-Project/index.html",
-    "main.bc37d930.css.map": "/React-Router-Project/static/css/main.bc37d930.css.map",
-    "main.10e485fc.js.map": "/React-Router-Project/static/js/main.10e485fc.js.map"
+    "main.css": "/static/css/main.bc37d930.css",
+    "main.js": "/static/js/main.2dc5e1a7.js",
+    "static/media/pfp.jpg": "/static/media/pfp.43b80dd3be582f355ece.jpg",
+    "static/media/contact.svg": "/static/media/contact.0c1884b99736759f5cef38035409ae75.svg",
+    "index.html": "/index.html",
+    "main.bc37d930.css.map": "/static/css/main.bc37d930.css.map",
+    "main.2dc5e1a7.js.map": "/static/js/main.2dc5e1a7.js.map"
   },
   "entrypoints": [
     "static/css/main.bc37d930.css",
-    "static/js/main.10e485fc.js"
+    "static/js/main.2dc5e1a7.js"
   ]
 }
