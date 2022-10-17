@@ -18,12 +18,7 @@ export default function Contact() {
             />
           </div>
           <div className="cline2">
-            <input
-              type="text"
-              id="subject"
-              placeholder="Subject"
-              required=""
-            />
+            <input type="text" id="subject" placeholder="Subject" required="" />
           </div>
           <textarea
             id="textarea"

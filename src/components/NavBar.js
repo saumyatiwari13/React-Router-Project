@@ -70,14 +70,22 @@ export default function NavBar() {
       <section id="nav-overlay" className={className}>
         <div className="nav-sec">
           <Link to="/home">
-            <div onClick={() => {
-              hamClick();
-            }}>Home</div>
+            <div
+              onClick={() => {
+                hamClick();
+              }}
+            >
+              Home
+            </div>
           </Link>
           <Link to="/about">
-            <div onClick={() => {
-              hamClick();
-            }}>About</div>
+            <div
+              onClick={() => {
+                hamClick();
+              }}
+            >
+              About
+            </div>
           </Link>
         </div>
       </section>
