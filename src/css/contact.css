@@ -1,0 +1,11 @@
+#contact-sec
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.conimg
+{
+    width: 400px;
+}
