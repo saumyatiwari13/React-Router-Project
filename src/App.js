@@ -9,7 +9,7 @@ import Contact from './components/Contact';
 function App() {
   return (
     <div>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         <NavBar/>
         <Routes>
           <Route path='/home' element={<Home/>} />
