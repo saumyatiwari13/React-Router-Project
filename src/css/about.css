@@ -82,3 +82,81 @@
     font-weight: 300;
     color: white;
 }
+
+@media only screen and (max-width:800px)
+{
+    .about-timeline,.about-content p
+    {
+        width: 570px;
+    }
+}
+@media only screen and (max-width:570px)
+{
+    .about-content h2
+    {
+        font-size: 38px;
+    }
+    .about-content p
+    {
+        font-size: 15px;
+        width: 395px;
+    }
+    .about-timeline
+    {
+        width: 395px;
+    }
+    .t-icon img
+    {
+        width: 45px;
+    }
+    .t-item
+    {
+        width: 50px;
+        height: 120px;
+    }
+    .t-item > img
+    {
+        width: 50px;
+        height: 10px;
+    }
+    .t-item p
+    {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width:400px)
+{
+    .about-content h2
+    {
+        font-size: 34px;
+        text-align: center;
+    }
+    .about-content p
+    {
+        font-size: 15px;
+        width: 100%;
+    }
+    .about-timeline
+    {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .t-icon img
+    {
+        width: 60px;
+    }
+    .t-item
+    {
+        flex: 50%;
+        height: 120px;
+    }
+    .t-item > img
+    {
+        width: 70px;
+        height: 10px;
+    }
+    .t-item p
+    {
+        font-size: 15px;
+    }
+}

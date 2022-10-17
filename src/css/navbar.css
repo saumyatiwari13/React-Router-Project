@@ -76,7 +76,6 @@
 {
     font-size: 20px;
     width: 330px;
-    /* justify-content: flex-end; */
 }
 #nav-links>div
 {
@@ -150,10 +149,6 @@
 @media only screen and (max-width:980px)
 {
     /*--------------------------------------------------------------- Navbar -------------------------------------------------------------*/
-    /* #nav-links
-    {
-        font-size: 16px;
-    } */
     #nav-name
     {
         width: 250px;

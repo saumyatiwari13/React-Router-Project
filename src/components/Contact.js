@@ -7,14 +7,14 @@ export default function Contact() {
     <div id="contact-sec">
       <img className="conimg" src={cimg} alt="Contact" />
       <div className="cdetails">
-        <div>
+        <form>
           <div className="cline1">
-            <input type="text" id="name" placeholder="Name" required="true" />
+            <input type="text" id="name" placeholder="Name" required="" />
             <input
               type="email"
               id="email"
               placeholder="Email Address"
-              required="true"
+              required=""
             />
           </div>
           <div className="cline2">
@@ -22,17 +22,17 @@ export default function Contact() {
               type="text"
               id="subject"
               placeholder="Subject"
-              required="true"
+              required=""
             />
           </div>
           <textarea
             id="textarea"
             placeholder="Message"
-            required="true"
+            required=""
             defaultValue={""}
           />
           <button type="submit">Send Message</button>
-        </div>
+        </form>
       </div>
     </div>
   );

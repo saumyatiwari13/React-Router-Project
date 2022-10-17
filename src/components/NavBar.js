@@ -12,6 +12,7 @@ export default function NavBar() {
       classList.map((e) => {
         if (className.length === 0) className = e;
         else className = className + " " + e;
+        return className;
       });
       setClass(className);
       setNav(true);
@@ -46,10 +47,10 @@ export default function NavBar() {
         <div className="nav-sec" id="nav-links">
           <div className="nav-sec">
             <Link to="/home">
-              <a>Home</a>
+              <div>Home</div>
             </Link>
             <Link to="/about">
-              <a>About</a>
+              <div>About</div>
             </Link>
           </div>
           <Link to="/contact">
@@ -68,8 +69,16 @@ export default function NavBar() {
       </nav>
       <section id="nav-overlay" className={className}>
         <div className="nav-sec">
-          <a>Home</a>
-          <a>About</a>
+          <Link to="/home">
+            <div onClick={() => {
+              hamClick();
+            }}>Home</div>
+          </Link>
+          <Link to="/about">
+            <div onClick={() => {
+              hamClick();
+            }}>About</div>
+          </Link>
         </div>
       </section>
     </>
